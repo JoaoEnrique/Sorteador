@@ -1,0 +1,100 @@
+:root
+{
+    --azul: #002060;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Arial";
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--azul);
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+div.box{
+    min-width: 500px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px 2%;
+}
+
+div.box #trocar-texto{
+    font-size: 22pt;
+    color: transparent;
+    margin: 15px 0;
+}
+
+div.box button{
+    font-size: 16pt;
+    color: white;
+    background-color: var(--azul);
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: 0;
+    cursor: pointer;
+}
+
+.titulo
+{
+    color: #fff;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.col
+{
+    background: #fff;
+    height: 200px;
+    width: 300px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all linear 1s;
+    margin-top: 10px;
+}
+
+.col:hover
+{
+    transform: scale(1.2);
+}
+
+.link-footer
+{
+    position: absolute;
+    bottom: 15px;
+}
+
+.link{
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.link-main
+{
+    color: rgb(80,80,80);
+    font-size: 25px;
+    text-decoration: none;
+}
